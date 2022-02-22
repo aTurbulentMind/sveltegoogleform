@@ -1,4 +1,4 @@
-export const post = (request) => {
+export const post = async (request) => {
     const name = request.body.get('name')
     const email = request.body.get('email')
 
