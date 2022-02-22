@@ -1,0 +1,170 @@
+@import 'vari';
+
+    * { 
+        padding:0;
+        margin: 0;
+    }
+ 
+body {
+        background: $gradient;
+        color: $textColorMain;
+        font-family: $mainFont;
+        overflow-x: hidden;
+        margin-bottom: 5%;
+    }
+
+    a {
+        text-decoration: none;
+        color: $highlight;
+    }
+
+    h1 {
+        margin: 10%;
+        font-size: 2.5vw;
+        font-family: $secondaryFont;
+        letter-spacing:2px;
+    }
+
+    h2 {
+        margin: 10%;
+        font-size: 2.25vw;
+        font-family: $secondaryFont;
+        letter-spacing:2px;
+    }
+
+    h3 {
+        margin: 10%;
+        font-size: 2vw;
+        font-family: $secondaryFont;
+        letter-spacing:2px;
+    }
+
+    p {
+        font-size: 1.75vw;
+        margin: 13%;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+   .altFont{
+       font-family: $secondaryFont;
+       font-weight: 400;
+   }
+
+   .vid {
+       width: 90vw;
+       height: 100vh;
+   }
+
+   .social {
+
+       img {
+           width: 50%;
+           height: 50%;
+           margin: 15% 15% 20% 15%;
+           border: 1px solid $backgroundSecond;
+           border-radius: 2%;
+       }
+   }
+
+
+      @media (max-width: 991px) {
+          .container {
+              grid-template: "1fr 1fr 1fr"250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px "1fr 1fr 1fr"250px "1fr 1fr 1fr "250px;
+          }
+
+          p,
+          h1,
+          h2,
+          h3 {
+              margin: 13%;
+          }
+
+      }
+
+      .social {
+
+        img{
+          width: 70%;
+          height: 70%;
+            }
+      }
+
+      @media (max-width: 991px) {
+          
+
+          .vid {
+              width: 93vw;
+              height: 100vh;
+          }
+
+           h1 {
+               font-size: 4vw;
+               margin: 15% 12%;
+           }
+
+           h2 {
+               font-size: 3.25vw;
+               margin: 15% 12%;
+           }
+
+           h3 {
+               font-size: 3vw;
+               margin: 15% 12%;
+           }
+
+           p {
+               margin: 15%;
+               font-size: 2.5vw;
+           }
+
+           a {
+               font-size: 2.5vw;
+               
+           }
+
+           .nav-item{
+           .link-text {
+               font-size: 2.5vw;
+           }
+        }
+      }
+
+      @media (max-width: 768px) {
+         
+
+          .art-banner-bg {
+              
+              background-size: 60%;
+              
+          }
+
+          h1 {
+              font-size: 5vw;
+              margin: 15% 12%;
+          }
+
+          h2 {
+              font-size: 4.25vw;
+              margin: 15% 12%;
+          }
+
+          h3 {
+              font-size: 4vw;
+              margin: 15% 12%;
+          }
+
+          p {
+              margin: 15% 12%;
+              font-size: 3.5vw;
+          }
+
+          a {
+              font-size: 3.5vw;
+              margin: 17% 0;
+          }
+
+          
+
+      }
+
